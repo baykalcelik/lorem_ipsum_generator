@@ -1,5 +1,91 @@
 .App {
-  text-align: center;
+  width:100%;
+  height:100vh;
+  background-color: rgb(241,245,248);
+  padding:0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 
+.header{
+    color:rgb(6,50,81);
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 5rem;
+    width:50%;
+}
+
+.middle{
+  margin-top: 2rem;
+  width:fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width:50%;
+  /* margin: 0 auto; */
+
+
+}
+
+.mtext{
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+
+}
+
+.giris{
+  color:black;
+  outline:none;
+  border:none;
+  width: 4rem;
+  font-size: 1.3rem;
+  margin: 0rem 0.5rem;
+  padding: 0.2rem;
+  border-radius: 5px;
+  border: 2px solid transparent;
+
+}
+
+.giris:focus{
+  border: 2px solid black;
+}
+
+
+.btn{
+  outline:none;
+  border:none;
+  background-color: rgb(103, 166, 248);
+  color:rgb(6,50,81);
+  font-weight: 300;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor:pointer;
+
+}
+
+.textAlani{
+  margin-top: 3rem;
+  width:50%;
+
+
+}
+
+.eleman{
+  margin: 1rem;
+  text-align: center;
+  text-justify: distribute-all-lines;
+  color: rgb(86, 124, 173);
+
+  
+}
